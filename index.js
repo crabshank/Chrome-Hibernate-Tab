@@ -9,7 +9,6 @@ async function tabs_discard(d){
 }
 
 hibTab.onclick=(e)=>{
-	t=e.target;
     let params = {
         active: true,
         currentWindow: true
